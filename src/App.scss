@@ -1,0 +1,61 @@
+@import '~bpk-mixins';
+
+$bpk-spacing-sm: 1;
+$bpk-spacing-lg: 4;
+$bpk-spacing-xl: 5;
+$bpk-spacing-xxl: 10;
+$bpk-spacing-base: 2;
+
+@mixin container {
+  max-width: $bpk-breakpoint-desktop;
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
+
+  &__header {
+    padding: $bpk-spacing-lg * 2;
+    background-color: $bpk-color-sky-blue;
+    background-image: $bpk-primary-gradient;
+    color: $bpk-color-white;
+
+    @include bpk-box-shadow-sm;
+
+    @include bpk-breakpoint-mobile {
+      padding: $bpk-spacing-xl;
+    }
+  }
+
+  &__header-inner {
+    @include container;
+  }
+
+  &__main {
+    padding: $bpk-spacing-xxl;
+
+    @include container;
+
+    @include bpk-breakpoint-mobile {
+      padding: $bpk-spacing-base;
+    }
+  }
+
+  &__heading {
+    margin-bottom: $bpk-spacing-sm;
+  }
+
+  &__text {
+    margin-bottom: $bpk-spacing-sm;
+  }
+}
+  
+
+  .centered-div {
+    display:flex;
+    justify-content: center; /*to center horizotally*/
+    align-items:center; /*to center vertically*/
+    height: 100vh; /*100% of the viewport height*/
+  }
+
+
