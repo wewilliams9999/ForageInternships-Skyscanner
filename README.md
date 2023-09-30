@@ -1,7 +1,7 @@
 # Skyscanner Virtual Internship with Forage - creating a 'date picker' web app using React]
 
 ## Overview
-I built this basic React web application with Skyscanner's Front-End Software Engineering Job Simulation through Forage. I used JavaScript, CSS, and HTML. The highlight of the project was incorporating the calendar component from Skyscanner's React library known as "Backpack" 🗓️🎒. Here's a link to the job simulation: https://www.theforage.com/virtual-experience/km4rw7dihDr3etqom/skyscanner/skyscanner-front-end-software-engineering-virtual-job-simulation/overview.
+I built this basic React web application with Skyscanner's Front-End Software Engineering Job Simulation through Forage. I used JavaScript, SCSS, and HTML. The highlight of the project was incorporating the calendar component from Skyscanner's React library known as "Backpack" 🗓️🎒. Here's a link to the job simulation: https://www.theforage.com/virtual-experience/km4rw7dihDr3etqom/skyscanner/skyscanner-front-end-software-engineering-virtual-job-simulation/overview.
 
 With this app, you can choose your departure date from the calendar.
 
